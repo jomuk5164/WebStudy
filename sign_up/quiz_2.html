@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지원하기</title>
+    <style>
+        form {
+            margin-top: 50px;
+            margin-left:35%;
+            width: 500px;
+            display: flex;
+        }
+
+        #user {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+            <fieldset>
+                <div style="background-color:gray ;">
+                    <h2>프론트엔드 개발자 지원서</h2>
+                    <P>HTML, CSS, JavaScript를 이해하고 열정이 있으신분을 찾습니다.</P>
+                </div>
+    
+            </br>
+            <div id="user">
+                <b>개인 정보</b>
+                <ul>
+                    <li><label>이름<input type="text" id="user_id" placeholder="공백 없이 입력하세요" autofocus></label></li>
+                    <li><label>연락처<input type="tel" id="user_tel"></label></li>
+                </ul>
+
+                <b>지원 분야</b>
+                <ul>
+                    <li><label><input type="radio" name="분야" value="publishing" checked> 웹 퍼블리싱</label></li>
+                    <li><label><input type="radio" name="분야" value="app"> 웹 어플리케이션 개발</label></li>
+                    <li><label><input type="radio" name="분야" value="add"> 개발 환경 개선</label></li>
+                </ul>
+
+                <b>지원 동기</b></br></br>
+                <textarea cols="40" rows="5" placeholder="지원 동기를 알려주세요!"></textarea>
+            </br>
+                <input type="submit" value="지원하기">
+                <input type="reset" value="취소">
+            </div>
+            </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form {
+            margin: auto;
+            margin-top: 100px;
+            width: 500px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-top: 30px;
+        }
+
+        fieldset {
+            border-radius: 15px;
+        }
+
+        #event {
+            margin-top: 30px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2>회원가입을 환영합니다!</h2>
+        <fieldset>
+            <legend><b>사용자정보</b></legend>
+            <ul>
+                <li><label>아이디 <input type="text" id="user_id" autofocus required placeholder="필수"></label></li>
+                <li><label>비밀번호 <input type="password" id="user_pw" required placeholder="필수"></label></li>
+                <li><label>비밀번호 확인 <input type="password" id="user_pw" required></label></li>
+                <li><label>이메일 <input type="email" id="user_email"></label></li>
+                <li><label>생년월일 <input type="datetime-local"></label></li>
+                <li><label>전화번호 <input type="tel" placeholder="- 빼고 입력해주세요." required ></label></li>
+                <li><label>가입경로 
+                    <select>
+                        <option value="internet">인터넷 광고</option>
+                        <option value="fiend">친구 추천</option>
+                    </select></label></li>
+                <li><label>메모</br><textarea id=memo cols="40" rows="4" placeholder="남기실 말씀"></textarea></label></li>
+            </ul>
+        </fieldset>
+        <fieldset id="event">
+            <legend><b>이벤트와 새로운 소식</b></legend>
+            <label><input type="radio" name="send" value="y">수신</label>
+            <label><input type="radio" name="send" value="n" checked>수신 안함</label>
+        </fieldset>
+        <input type="submit" value="가입하기">
+        <input type="reset" value="취소">
+    </form>
+</body>
+</html>
