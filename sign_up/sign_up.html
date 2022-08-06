@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        #check {
+            margin-top: 20px;
+        }
+
+        #memo {
+            width: 300px;
+            height: 50px;
+        }
+
+        form {
+            width: 600px;
+            margin: auto;
+        }
+
+        .정보 {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        <fieldset id="essential">
+            <legend><h1>회원가입</h1></legend>
+            <div class="정보">
+            <p><label>이름 <input type="text" id="user_nm" required autofocus></label></p>
+            <p><label>ID <input type="text" id="user_id" required></label></p>
+            <p><label>비밀번호 <input type="password" id="user_pw" required></label></p>
+            <p><label>이메일 <input type="email" id="user_email"></label></p>
+            <p><label>성별 
+                <input type="radio" name="gender" value="man" checked>남자 
+                <input type="radio" name="gender" value="woman">여자
+            </label></p>
+            <p><label>전화번호 <input type="tel" required placeholder="- 빼고 입력해주세요"></label></p>
+            <p><label>생년월일 <input type="datetime-local"></label></p>
+            </div>
+        </fieldset>
+        
+        <fieldset id="check">
+            <legend>선택사항</legend>
+            <span>관심분야</span><br>
+            <label><input type="checkbox" name="attention" value="att_it">IT</label>
+            <label><input type="checkbox" name="attention" value="att_경제">경제</laber>   
+            <label><input type="checkbox" name="attention" value="att_사회">사회</label>   
+            <label><input type="checkbox" name="attention" value="att_음악">음악</label>
+            <br><br>
+            
+            <span>메모</span>
+            <textarea id="memo" placeholder="남기실 말씀"></textarea>
+        </fieldset>
+
+        <input type="submit" value="가입하기">
+        <input type="reset" value="취소">
+    </form>    
+</body>
+</html>
