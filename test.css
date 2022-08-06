@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+
+body {
+    background-color: #1BBC9B;
+}
+
+.login-form {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 300px;
+    background-color: #EEEFF1;
+}
+
+.text-field {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login {
+    padding: 10px;
+    width: 100%;
+    background-color: #1BBC9B;
+    color: #EEEFF1;
+}
+
+.link a {
+    color: #9B9B9B;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
