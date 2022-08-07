@@ -1,41 +1,39 @@
 * {
     box-sizing: border-box;
-    font-family: 'Noto Sans KR', sans-serif;
-    border-radius: 5px;
-    border: none;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background-color: #1BBC9B;
+div {
+    border: solid red 1px;
+    width: 1200px;
 }
 
-.login-form {
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+header {
+    border: solid black 1px;
+    height: 150px;
+    width: 100%;
+}
+
+
+aside {
+    border: solid black 1px;
+    float: left;
+    height: 500px;
     width: 300px;
-    background-color: #EEEFF1;
 }
 
-.text-field {
-    padding: 10px;
+main {
+    border: solid black 1px;
+    width: 898px;
+    float: left;
+    height: 500px;
+}
+
+
+footer {
+    border: solid black 1px;
+    clear: left;
     width: 100%;
-    margin-bottom: 10px;
+    height: 100px;
 }
-
-.login {
-    padding: 10px;
-    width: 100%;
-    background-color: #1BBC9B;
-    color: #EEEFF1;
-}
-
-.link a {
-    color: #9B9B9B;
-    display: block;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 14px;
-}
-

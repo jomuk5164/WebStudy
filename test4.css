@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: aqua;
+    float: left;
+    padding: 10px 20px;
+}
+
+li:hover {
+    background-color: rgb(194, 100, 100)
+}
+
+a {
+    display: block;
+}
