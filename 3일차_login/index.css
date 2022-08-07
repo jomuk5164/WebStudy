@@ -12,6 +12,10 @@
     font-family: jua;
 }
 
+body {
+    background-color: beige;
+}
+
 .container {
     text-align: center;
     margin-left: auto;
@@ -19,6 +23,7 @@
     margin-top: 5%;
     width: 400px;
     border: solid rgb(177, 176, 176) 0.5px;
+    background-color: white
 }
 
 .logo {
@@ -82,6 +87,7 @@ span {
     text-align: center;
     width: 400px;
     font-size: 17px;
+    background-color: white
 }
 
 .a {
