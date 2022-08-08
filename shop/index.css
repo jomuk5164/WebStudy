@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+    min-width: 992px;
+    font-family: "h";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  ul li {
+    float: left;
+    margin-right: 30px;
+    font-family: "h";
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+.login {
+    margin-right: 0;
+    padding-right: 30px;
+}  
+
+  .nav {
+    height: 60px;
+  }
+
+#nav-logo {
+    float: left;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+#nav-menu {
+    float: right;
+    padding: 10px;
+}
+
