@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let jomuk = {
+            name : "KimJongUk",
+            age : "temp",
+            addAge : function(num) {
+                jomuk.age = num ;
+            }
+        };
+
+        let a = prompt("나이를 입력하시오") ;
+        jomuk.addAge(a) ;
+        
+
+        if (jomuk.age <= 19) {
+            alert("돌아가!")
+            console.log(jomuk.age)
+        } 
+        else if (jomuk.age = null) {
+            alert("취소.")
+            console.log(jomuk.age)
+        }
+        else {
+            alert("성인!")
+            console.log(jomuk.age)
+        };
+    </script>
+</body>
+</html>
