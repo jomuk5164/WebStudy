@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="user">표시</div>
+
+    <script>
+        let jomuk = {
+            name : "Kim Jong Uk",
+            age : 28,
+            job : "Engineer" 
+        };
+
+        const mode = document.getElementById("user");
+
+        mode.addEventListener("click", function() {
+  if (mode.innerText === "바뀌기 전 text") {
+    mode.innerHTML = jomuk.name;
+  } else {
+    mode.innerText = "바뀌기 전 text";
+  }
+});
+    </script>
+</body>
+</html>

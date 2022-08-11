@@ -1,8 +1,15 @@
-function 마이너스(a,b) {
-    let sum = a-b;
-    return sum;
+
+
+let name = prompt("당신의 등급은? S / A / B");
+
+if (name === "S") {
+    alert("안녕하세요 최고등급님");    
+}
+else if (name === "A") {
+    alert("안녕하세요 A등급님");
+}
+else {
+    alert("접근 금지령") ;
 }
 
-let a = parseInt(prompt("첫번쨰"))
-let b = parseInt(prompt("두번쨰"))
 
