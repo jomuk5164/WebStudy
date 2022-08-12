@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #1BBC9B;
+}
+
+.container {
+    margin-top: 15%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EEEFF1;
+}
+
+.container a {
+color: #9B9B9B;
+
+}
+
+form {
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.b {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.btn {
+    margin-bottom: 30px;
+    background-color: #1BBC9B;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+ 
+.link {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 80%;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 165px;
+    height: 58px;
+    margin-top: 80px;
+}
+
+.main {
+    text-align: center;
+}
+
+.nav {
+    margin : 60px 0px;
+}
+
+.nav a {
+    font-family: Helvetica;
+    font-size: 16px;
+    color : #58595B;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+#home {
+    width: 90%;
+}
+#seoul {
+    width: 90%;
+}
+#tokyo {
+    width: 90%;
+}
+#paris {
+    width: 90%;
+}
