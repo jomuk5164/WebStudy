@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+header {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+header h1 {
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+header h3 {
+    font-size: 32px;
+}
+
+.item1 {
+    width: 300px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;;
+}
+
+.item1 img {
+    width: 100%;
+    height: 200px;
+}
+
+.item1-info {
+    padding: 20px;
+}
+
+.item1-info h3 {
+    font-size: 32px;
+}
+
+.item1-info p {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    text-align: left;
+}
